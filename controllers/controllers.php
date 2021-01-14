@@ -1,6 +1,6 @@
 <?php
     
-    $pageUrl = $_GET['id'];// contient id.html
+    $pageUrl = isset($_GET['id']);// contient id.html
 
     if ($_SERVER['REQUEST_METHOD'] == 'GET' && !empty($pageUrl)) {
         
