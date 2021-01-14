@@ -1,3 +1,10 @@
 <?php
+    
+    $pageUrl = $_GET['id'];// contient id.html
 
-$id = 1;
+    if ($_SERVER['REQUEST_METHOD'] == 'GET' && !empty($pageUrl)) {
+        
+        $id = intval($_GET['id']);
+        echo $website->page[($id-1)]->content;
+    }
+?>

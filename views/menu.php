@@ -5,18 +5,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href=""><?=$menu[$pageId[0]]?></a>
-            </li>
-            <li class="nav-item active">.
-                <a class="nav-link" href=""><?=$menu[$pageId[1]]?></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href=""><?=$menu[$pageId[2]]?></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href=""><?=$menu[$pageId[3]]?></a>
-            </li>
+
+            <?php foreach($website->page as $key): ?>
+                <!-- on récupére l'id de la page pour afficher le menu -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="?id=<?=$key['id']?>"><?=$key->menu?></a>
+                </li>
+
+            <?php endforeach ?>
+
         </ul>
     </div>
 </nav>
