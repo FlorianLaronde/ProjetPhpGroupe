@@ -9,7 +9,7 @@
             <?php foreach($website->page as $key): ?>
                 <!-- on récupére l'id de la page pour afficher le menu -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="?id=<?=$key['id']?>"><?=$key->menu?></a>
+                    <a class="nav-link" href="<?=$key['id']?>.html"><?=$key->menu?></a>
                 </li>
 
             <?php endforeach ?>
