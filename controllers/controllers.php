@@ -5,6 +5,8 @@
     if ($_SERVER['REQUEST_METHOD'] == 'GET' && !empty($pageUrl)) {
         
         $id = intval($_GET['id']);
-        echo $website->page[($id-1)]->content;
-    }
+        $content = $website->page[$id-1]->content;
+
+        $title = $website->page[$id-1]->title;
+    }    
 ?>

@@ -1,6 +1,6 @@
 <?php 
 $website = simplexml_load_file('utils\source.xml');
-
+include 'controllers\controllers.php';
 include 'views\templates\header.php'
 
 ?>
@@ -13,7 +13,9 @@ include 'views\templates\header.php'
 <?php 
 
 include 'views\menu.php';
-include 'controllers\controllers.php';
+
+echo $content;
+
 include 'views\templates\footer.php';
 
 ?>
