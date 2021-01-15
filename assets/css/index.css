@@ -31,7 +31,7 @@ h1 {
     color: #8ECEFF;
     text-transform: uppercase;
     text-decoration: underline overline;
-    padding-top: 8%;
+    padding-top: 10%;
     font-weight: bolder;
 }
 
@@ -41,9 +41,6 @@ h2 {
     text-shadow: 10px -5px 2px rgba(142,206,255,0.6);
 }
 
-h3 {
-    text-shadow: 10px -5px 2px rgba(142,206,255,0.6);
-}
 
 p, li {
     font-size: 160%;
@@ -55,13 +52,13 @@ p, li {
 /* Images */
 img {
     transform: scale(1.0);
-    transition:  1s ease-out;
+    transition:  1s;
     border-radius: 10%;
 }
 
 img:hover {
     transform: scale(1.1);
-    transition: all 1s ease-out;
+    transition: 1s;
 }
 
 /* ******************************************* */
