@@ -8,6 +8,8 @@ body {
     background-color: #476780;  
 }
 
+
+
 /* *********************************** */
 /* NAVBAR */
 
@@ -25,13 +27,17 @@ body {
     transition: all 1s ease-out;
 }
 
+#container {
+    margin-top: 56px;
+}
+
 /* *********************************** */
 /* Titres, paragraphes, listes */
 h1 {
     color: #8ECEFF;
     text-transform: uppercase;
     text-decoration: underline overline;
-    padding-top: 10%;
+    padding-top: 5%;
     font-weight: bolder;
 }
 

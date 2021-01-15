@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!-- Toutes les pages -->
-<website class="container-fluid" >
+<website>
 
     <!-- Page 1 -->
     <page class="rows text-center" id="1">

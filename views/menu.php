@@ -7,8 +7,8 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
 
-            <!-- On boucle sur le tableau $website afvec la propriété page
-            pour affucher chaque élément du menu -->
+            <!-- On boucle sur le tableau $website avec la propriété page
+            pour afficher chaque élément du menu -->
             <?php foreach($website->page as $key): ?>
 
                 <li class="nav-item active">

@@ -8,17 +8,17 @@
     $title = '';
 
 
-    // on teste si l'attribut id existe
+    // on teste si l'attribut id existe grâce à la variable super globale qui collecte les données
     if (isset($_GET['id'])) {
 
-        // si il existe, on le stocke dans une varaible
+        // si il existe, on le stocke dans une variable
         $pageUrl = $_GET['id'];
 
-        // on teste si on a cliqué sur un lien dans le menu avec la metyhode GET
+        // on teste si on a cliqué sur un lien dans le menu avec la méthode GET
         if ($_SERVER['REQUEST_METHOD'] == 'GET' && !empty($pageUrl)) {
             
             // si oui
-            // on converti l'id en entier pour pouvoir l'utiliser pour naviguer dans le menu
+            // on convertit l'id en entier pour pouvoir l'utiliser pour naviguer dans le menu
             $id = intval($_GET['id']);
 
             // on stocke dans une variable le contenu de la page demandée

@@ -4,16 +4,8 @@
 include 'controllers\controllers.php';
 
 // include du header de la page html
-include 'views\templates\header.php'
+include 'views\templates\header.php';
 
-?>
-
-
-<div class="container">
-
-
-
-<?php 
 
 // include du menu
 include 'views\menu.php';
