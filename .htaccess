@@ -6,4 +6,4 @@ Options +FollowSymlinks
 RewriteEngine on
 
 # Règles de réécriture d'URL
-RewriteRule ^([1-4]){1}.html$ index.php?id=$1 [L]
+RewriteRule ^([1-4]).html$ index.php?id=$1 [L]

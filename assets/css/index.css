@@ -6,7 +6,23 @@
 
 body {
     background-color: #476780;  
+    
 }
+
+iframe {
+    width: 80%;
+}
+
+
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+/* @media screen and (max-width: 1024px)
+{
+    p
+    {
+        font-size: 12px;
+    }
+} */
 
 
 

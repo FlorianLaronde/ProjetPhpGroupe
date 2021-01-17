@@ -7,6 +7,8 @@
     $content = '';
     $title = '';
 
+    // !!! Ne pas oublier de nettoyer 
+
 
     // on teste si l'attribut id existe grâce à la variable super globale qui collecte les données
     if (isset($_GET['id'])) {

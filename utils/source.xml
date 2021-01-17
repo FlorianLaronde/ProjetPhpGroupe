@@ -9,7 +9,7 @@
         <menu>Accueil</menu> 
         <title>Accueil - Maçonnerie Ocordo</title>
         <!-- Contenu -->
-        <content><![CDATA[
+        <content class="col-lg-12 col-md-12 col-sm-12 col-xs-12" ><![CDATA[
             <h1 class="text-center mb-5" >Maçonnerie Ocordo</h1>
             <p class="text-left">Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
             <p class="text-left">Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
@@ -26,13 +26,14 @@
     ]]></content>
     </page>
 
+
     <!-- Page 2 -->
     <page class="rows" id="2">
         <!-- Titre -->
         <menu>Qui sommes nous?</menu>
         <title>En apprendre plus sur nous - Maçonnerie Ocordo</title>
         <!-- Contenu -->
-        <content><![CDATA[
+        <content class="conteneur"><![CDATA[
             <h1 class="text-center mt-3 mb-5" >Qui sommes-nous?</h1>
             <h2>L’AGENCE DE TRAVAUX OCORDO</h2>
             <h3>Présentation de notre entreprise</h3>
@@ -71,6 +72,7 @@
         </content>
     </page>
 
+
     <!-- Page 3 -->
     <page class="rows" id="3">
         <!-- Titre -->
@@ -94,13 +96,14 @@
         </content>
     </page>
 
+
     <!-- Page 4 -->
     <page class="rows" id="4">
         <!-- Titre -->
         <menu>Contact</menu>
         <title>Contactez nous - Maçonnerie Ocordo</title>
         <!-- Contenu -->
-        <content><![CDATA[
+        <content class="conteneur"><![CDATA[
             <h1 class="text-center mt-3 mb-5" >Contact et Devis</h1>    
             <p><iframe style="border: 0; float: right;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
             <p>POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
